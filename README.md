@@ -1,3 +1,5 @@
+## No SoD Sounds Mod for SoD and EET
+
 This mods lets vanilla NPCs keep their original BG1 sound sets during SoD.  
 Note: This works ONLY when transitioning from BG1 to SoD (not for new SoD games) and ONLY for the following vanilla NPCs:
 - Dynaheir
