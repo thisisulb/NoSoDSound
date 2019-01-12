@@ -1,0 +1,45 @@
+BACKUP ~NoSoDSound/backup~
+AUTHOR ~Ulb~
+VERSION ~1.0~
+
+BEGIN ~Dynaheir - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDDYNAHE.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDDYNAHE.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+BEGIN ~Edwin - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDEDWIN.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDEDWIN.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+BEGIN ~Khalid - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDKHALID.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDKHALID.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+BEGIN ~Minsc - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDMINSC.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDMINSC.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+BEGIN ~Safana - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDSAFANA.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDSAFANA.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+BEGIN ~Viconia - keep BG1 sound set during SoD~
+ACTION_IF (FILE_EXISTS_IN_GAME ~BDVICONI.BCS~)  THEN BEGIN
+   EXTEND_TOP ~BDVICONI.BCS~  ~NoSoDSound/NoSoDSound.baf~
+END
+
+
+
+
+
+
+

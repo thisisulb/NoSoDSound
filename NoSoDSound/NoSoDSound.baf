@@ -1,0 +1,6 @@
+IF
+	Global("bd_NewSounds","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bd_NewSounds","LOCALS",1)
+END
